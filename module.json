@@ -10,7 +10,7 @@
     ],
     "priority": 0,
     "providers": [
-        "Modules\\User\\app\\Providers\\UserServiceProvider"
+        "Modules\\User\\App\\Providers\\UserServiceProvider"
     ],
     "files": []
 }

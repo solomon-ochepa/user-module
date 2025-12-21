@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\User\app\Models;
+namespace Modules\User\App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 
@@ -66,7 +66,7 @@ class User extends Authenticatable
     public function name(): Attribute
     {
         return Attribute::make(
-            get: fn ($name, $attributes) => $attributes['first_name'] . ' ' . $attributes['last_name'],
+            get: fn ($name, $attributes) => $attributes['first_name'].' '.$attributes['last_name'],
             // set: fn ($name, $attributes) => ''
         );
     }

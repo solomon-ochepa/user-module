@@ -1,14 +1,12 @@
 <?php
 
-namespace Modules\User\app\Http\Controllers;
+namespace Modules\User\App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Http\RedirectResponse;
-use Illuminate\Http\Request;
-use Illuminate\Http\Response;
-use Modules\User\app\Http\Requests\StoreUserRequest;
-use Modules\User\app\Http\Requests\UpdateUserRequest;
+use Modules\User\App\Http\Requests\StoreUserRequest;
+use Modules\User\App\Http\Requests\UpdateUserRequest;
 
 class UserController extends Controller
 {
